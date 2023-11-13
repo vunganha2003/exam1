@@ -17,7 +17,7 @@ function isPrime($n){
         return false;
     }
 }
-//Hàm tìm số nguyên tố
+//Hàm hiển thị số nguyên tố
 function displayPrimeNumbers($start, $end) {
     echo "Các số nguyên tố từ $start đến $end là: ";
     for ($i = $start; $i <= $end; $i++) {
